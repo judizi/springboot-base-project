@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: base-api
+    devtools:
+        livereload:
+            enabled: true
+
+server:
+    port: 8080
+
+springdoc:
+    api-docs:
+        path: /api-docs
+
+api:
+    name: base-api
+    version: 1.0.0
